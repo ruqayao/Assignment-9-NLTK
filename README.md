@@ -7,7 +7,7 @@ The purpose of this assignment is to perform a comparative linguistic analysis o
 - Content: The texts are stylistic adaptations of the same story (Texts 1-3) and a standalone piece (Text 4).
 # Class Design & Implementation
 The project uses a single class, TextAnalyzer, to encapsulate all NLP logic:
-- __init__(file_path): Sets up the instance and loads the raw data.
+- _init_(file_path): Sets up the instance and loads the raw data.
 - load_text(): Handles file I/O.
 - process_tokens(): Cleans data by removing "noise" (stopwords/punctuation) and normalizes words via stemming and lemmatization.
 - get_top_tokens(n): Calculates frequency distributions to find the most significant words.
